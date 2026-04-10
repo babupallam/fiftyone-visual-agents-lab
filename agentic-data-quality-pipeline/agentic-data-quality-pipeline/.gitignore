@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environments and local config
+.env
+.env.local
+.env.*.local
+
+# Logs and runtime state
+*.log
+logs/
+data/logs/*
+!data/logs/.gitkeep
+*.pid
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# FiftyOne and dataset artifacts
+fiftyone/
+fiftyone.db/
+mongo/
+data/raw/*
+data/exports/*
+data/quarantine/*
+!data/raw/.gitkeep
+!data/exports/.gitkeep
+!data/quarantine/.gitkeep
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
